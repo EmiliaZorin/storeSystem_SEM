@@ -7,7 +7,7 @@ import random
 from tabulate import tabulate
 from pathlib import Path
 
-data_folder = Path(r'C:/Users/micha/Desktop/project_new/Group2_Yesodot/final project/')
+data_folder = Path(r'C:/Users/emilia/Desktop/project_new/Group2_Yesodot/final project/')
 
 
 def get_total_price_of_recipect(rec_num):
