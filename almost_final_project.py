@@ -40,7 +40,6 @@ def get_total_price_of_recipect(rec_num):
 
 
 def update_stock_with_cancellation(items_list):
-   # location = r'C:\Users\User\Desktop\project-store\Group2_Yesodot\final project\.xlsx'
     location = data_folder / "inventory.xlsx"
 
     # variable that present the file we will work with
@@ -192,7 +191,7 @@ def cancel_sell(access):
         update_cancelled_report(data_list)
 
     else:
-        print('You can not cancel a sell.\nCancellation of sell is valid only for one day.')
+        print('You can not cancel a sell.\nCancellation of a sell is valid only for one day.')
 
     Open_Menu(access)
 ####################################################################################
